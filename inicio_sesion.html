@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Web</title>
+    <link href="img/index2.jpg" rel="icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-12 col-md-8 col-lg-6">
+                <div class="wrapper position-relative">
+                    <span class="bg-animate"></span>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 form-box login">
+                            <h2 class="text-center">Login</h2>
+                            <form action="Modulos/controladorLogin.php" method="POST">
+                                <div class="input-box mb-3">
+                                    <input type="text" class="form-control" id="usuario" name="usuario" required>
+                                    <label class="form-label">Usuario..</label>
+                                    <i class='bx bxs-user-account'></i>
+                                </div>
+                                <div class="input-box mb-3">
+                                    <input type="password" class="form-control" id="pass" name="pass" required>
+                                    <label class="form-label">Contraseña</label>
+                                    <i class='bx bxs-lock'></i>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Acceder</button>
+                            </form>
+                        </div>
+                        <div class="col-12 col-lg-6 info-text login text-center mt-4 mt-lg-0">
+                            <h3>Developer Web!</h3>
+                            <p>¡El mejor sitio para desarrolladores Web!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
